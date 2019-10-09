@@ -1,0 +1,32 @@
+server:
+  port: 8090
+spring:
+  profiles:
+    active: dev
+---
+
+server:
+  port: 8080
+spring:
+  profiles: dev
+---
+
+server:
+  port: 9090
+spring:
+  profiles: prod
+---
+
+
+#person:
+#    boss: false
+#    age: 20
+#    birth: 2019/10/09
+#    maps: {k1: v1,k2: v2}
+#    lists:
+#      - lisi
+#      - zhaoliiu
+#    dog:
+#      name: 小狗
+#      age: 9
+#    last-name: lll
